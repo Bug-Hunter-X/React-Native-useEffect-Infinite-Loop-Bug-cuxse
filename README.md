@@ -1,0 +1,1 @@
+This repository demonstrates a common React Native bug involving the `useEffect` hook. The bug is caused by an improperly used dependency array, resulting in an infinite render loop. The solution showcases how to fix the bug by correctly specifying the dependencies.
