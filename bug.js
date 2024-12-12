@@ -1,0 +1,1 @@
+This React Native code produces an error because of an improper use of the `useEffect` hook.  The second argument to `useEffect`, the dependency array, is missing. This means that the effect will run after every render, leading to an infinite loop and the error 'Maximum update depth exceeded'.
